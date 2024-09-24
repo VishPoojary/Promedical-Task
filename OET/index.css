@@ -1,0 +1,188 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+header {
+    padding: 20px;
+    
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 180px;
+    padding: 4px;
+}
+
+.header-details {
+    text-align: center;
+    flex: 1;
+    margin: 0 20px;
+}
+
+header h1 {
+    color: #253068;
+    margin: 10px 0;
+    font-weight: bold;
+}
+header p{
+    color: #253068;
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #253068;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+#features {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; 
+}
+#features h2{
+    color: #2E9018;
+    font-weight: bold;
+    
+}
+.feature-image {
+    margin-bottom: 20px;
+}
+
+.collage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.collage img {
+    width: 200px;
+    margin: 10px 10px; 
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 20px;
+}
+
+.feature-item {
+    width: 80%; 
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0; 
+    
+}
+
+.feature-item.odd {
+    background-color: #c5daee; 
+    font-weight: bold;
+}
+
+.feature-item.even {
+    background-color: #ccf0cc; 
+    font-weight: bold;
+}
+
+#structure {
+    padding: 20px;
+}
+
+.timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.module-card {
+    flex: 1 1 calc(24% - 20px);
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #c5daee;
+    color: #253068;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.module-card:hover {
+    transform: scale(1.05);
+}
+
+#testimonials {
+    padding: 20px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonial-card {
+    flex: 1 1 calc(45% - 20px);
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccf0cc;
+    color: #2E9018;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+}
+
+#faq {
+    padding: 20px;
+}
+
+.faq-question {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #c5daee;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    border-left: 2px solid #3B8EA5;
+    background-color: #ccf0cc;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #253068;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #F9A828;
+    text-decoration: none;
+}
